@@ -5,13 +5,9 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 // Pantallas
 import InicioScreen from './src/pantallas/InicioScreen';
-
 import SumadoraScreen from './src/pantallas/SumadoraScreen';
-
 import TraductorScreen from './src/pantallas/TraductorScreen';
-
 import TablaScreen from './src/pantallas/TablaScreen';
-
 import ExperienciaScreen from './src/pantallas/ExperienciaScreen';
 
 const Drawer = createDrawerNavigator();
