@@ -18,6 +18,7 @@ export default function App() {
       <Drawer.Navigator
         initialRouteName="Inicio"
         screenOptions={{
+          unmountOnBlur: true,
           headerStyle: { backgroundColor: '#007AFF' },
           headerTintColor: '#ffffff',
           headerTitleStyle: { fontWeight: 'bold' },
@@ -28,7 +29,7 @@ export default function App() {
         <Drawer.Screen
           name="Inicio"
           component={InicioScreen}
-          options={{ title: 'Página Principal' }}
+          options={{ title: 'Inicio' }}
         />
         <Drawer.Screen
           name="Sumadora"
@@ -38,7 +39,7 @@ export default function App() {
         <Drawer.Screen
           name="Traductor"
           component={TraductorScreen}
-          options={{ title: 'Traductor a Letras' }}
+          options={{ title: 'Convertidor Números a Letras' }}
         />
         <Drawer.Screen
           name="Tabla"
